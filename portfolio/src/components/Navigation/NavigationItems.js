@@ -1,11 +1,13 @@
 import React from 'react';
 import classes from './NavigationItems.css';
+import { classExpression } from '@babel/types';
 
 const navigationItems = (props) => (
-    <div>
+    <div className={classes.NavigationItems}>
+        <img className={classes.Head} src={require("../../assets/head.jpg")}/>
         <h3>Joyce Liao</h3>
         <p>Software Developer</p>
-        <ul className={classes.NavigationItems}>
+        <ul>
             <li><a>Home</a></li>
             <li><a>Python</a></li>
             <li><a>JavaScript</a></li>
