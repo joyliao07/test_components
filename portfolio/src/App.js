@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './App.css';
+import Landing from './containers/Landing/Landing';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <header className="App-header">
         <p> Portfolio Header </p>
       </header>
+      <Landing/>
     </div>
   );
 }
