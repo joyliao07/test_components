@@ -6,8 +6,10 @@ class Landing extends Component {
     render () {
         return (
             <div className={classes.Landing}>
-                This is landing page
                 <NavigationItems/>
+                <div className={classes.LandingContent}>
+                    <p>landing content</p>
+                </div>
             </div>
         );
     }
