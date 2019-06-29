@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './NavigationItems.css';
 import { classExpression } from '@babel/types';
+import 'font-awesome/css/font-awesome.min.css';
 
 const navigationItems = (props) => (
     <div className={classes.NavigationItems}>
@@ -17,6 +18,8 @@ const navigationItems = (props) => (
             <li><a>About</a></li>
             <li><a>Contact</a></li>
         </ul>
+        <i className="fa fa-github" aria-hidden="true"></i>
+        {/* https://scotch.io/tutorials/using-font-awesome-5-with-react */}
     </div>
 );
 
