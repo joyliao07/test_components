@@ -4,8 +4,8 @@ import { classExpression } from '@babel/types';
 
 const navigationItems = (props) => (
     <div className={classes.NavigationItems}>
-        <div>
-            <img className={classes.Head} src={require("../../assets/head.jpg")}/>
+        <div className={classes.Name}>
+            <img src={require("../../assets/head.jpg")}/>
             <h3>Joyce Liao</h3>
             <p>Software Developer</p>
         </div>
