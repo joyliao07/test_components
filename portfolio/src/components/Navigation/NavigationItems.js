@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './NavigationItems.css';
-import { FaGithub, FaLinkedin, FaHome, FaPython } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io";
+import { FaGithub, FaLinkedin, FaHome, FaPython, FaRegLightbulb, FaCommentDots } from "react-icons/fa";
+import { IoLogoJavascript, IoMdContact } from "react-icons/io";
 import { IconContext } from "react-icons";
 
 const navigationItems = (props) => (
@@ -13,13 +13,26 @@ const navigationItems = (props) => (
         </div>
         <ul>
             <IconContext.Provider 
-                value={{ size: "20px", style: {"margin-left": "15px", "margin-top": "15px"}}}>
-                <li><a>Home <FaHome/></a></li>
-                <li><a>Python <FaPython/></a></li>
-                <li><a>JavaScript <IoLogoJavascript/></a></li>
-                <li><a>Algorithm</a></li>
-                <li><a>About</a></li>
-                <li><a>Contact</a></li>
+                value={{ size: "17px", style: {"margin-left": "18px", "margin-top": "15px"}}}>
+                <div>
+                    <div className={classes.LiHome}><li><a>Home</a> </li><FaHome/></div>
+                </div>
+                <div> 
+                    <div className={classes.LiPython}><li><a>Python</a></li> <FaPython/> </div>
+                </div>
+                <div> 
+                    <div className={classes.LiJS}><li><a>JavaScript</a></li> <IoLogoJavascript/> </div>
+                </div>
+                <div> 
+                    <div className={classes.LiAlgorithm}><li><a>Algorithm</a></li> <FaRegLightbulb/> </div>
+                </div>
+                <div> 
+                    <div className={classes.LiAbout}><li><a>About Me</a></li> <FaCommentDots/> </div>
+                </div>
+                <div> 
+                    <div className={classes.LiContact}><li><a>Contact</a></li> <IoMdContact/> </div>
+                </div>
+
             </IconContext.Provider>
         </ul>
         <div className={classes.Icons}>
