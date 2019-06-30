@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './NavigationItems.css';
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaHome, FaPython } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io";
 import { IconContext } from "react-icons";
 
 const navigationItems = (props) => (
@@ -11,12 +12,15 @@ const navigationItems = (props) => (
             <p>Software Developer</p>
         </div>
         <ul>
-            <li><a>Home</a></li>
-            <li><a>Python</a></li>
-            <li><a>JavaScript</a></li>
-            <li><a>Algorithm</a></li>
-            <li><a>About</a></li>
-            <li><a>Contact</a></li>
+            <IconContext.Provider 
+                value={{ size: "20px", style: {"margin-left": "15px", "margin-top": "15px"}}}>
+                <li><a>Home <FaHome/></a></li>
+                <li><a>Python <FaPython/></a></li>
+                <li><a>JavaScript <IoLogoJavascript/></a></li>
+                <li><a>Algorithm</a></li>
+                <li><a>About</a></li>
+                <li><a>Contact</a></li>
+            </IconContext.Provider>
         </ul>
         <div className={classes.Icons}>
             <IconContext.Provider 
