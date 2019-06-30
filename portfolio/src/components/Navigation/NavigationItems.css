@@ -24,18 +24,33 @@ h3 {
     width: 100%;
 }
 
-.LiHome, .LiPython {
+.LiHome, .LiPython, .LiJS, .LiAlgorithm, .LiAbout, .LiContact {
     display: inline-flex;
 }
 
 .LiHome li {
-    padding-top: 10px;
-}
-
-.LiPython li {
     padding-top: 11px;
 }
 
+.LiPython li {
+    padding-top: 12px;
+}
+
+.LiJS li {
+    padding-top: 10px;
+}
+
+.LiAlgorithm li {
+    padding-top: 12px;
+}
+
+.LiAbout li {
+    padding-top: 11px;
+}
+
+.LiContact li {
+    padding-top: 10px;
+}
 
 .Name p {
     margin-block-start: 0px;
@@ -52,7 +67,7 @@ h3 {
 .Icons {
     display: block;
     float: right;
-    margin: 20% 0 7% 0;
+    margin: 25% 0 7% 0;
 }
 
 
