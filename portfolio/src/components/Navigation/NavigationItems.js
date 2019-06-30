@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './NavigationItems.css';
-import { classExpression } from '@babel/types';
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { IconContext } from "react-icons";
 
 const navigationItems = (props) => (
     <div className={classes.NavigationItems}>
@@ -17,6 +18,14 @@ const navigationItems = (props) => (
             <li><a>About</a></li>
             <li><a>Contact</a></li>
         </ul>
+        <IconContext.Provider value={{ size: "1.5em", className: "Icons" }}>
+            <FaGithub />
+            <FaLinkedin />
+        </IconContext.Provider>
+
+
+
+        {/* https://react-icons.netlify.com/#/icons/fa */}
     </div>
 );
 
