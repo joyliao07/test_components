@@ -13,9 +13,13 @@ const navigationItems = (props) => (
         </div>
         <ul>
             <IconContext.Provider 
-                value={{ size: "20px", style: {"margin-left": "15px", "margin-top": "15px"}}}>
-                <li><a>Home <FaHome/></a></li>
-                <li><a>Python <FaPython/></a></li>
+                value={{ size: "17px", style: {"margin-left": "15px", "margin-top": "15px"}}}>
+                <div>
+                    <div className={classes.LiHome}><li><a>Home</a> </li><FaHome/></div>
+                </div>
+                <div> 
+                    <div className={classes.LiPython}><li><a>Python</a></li> <FaPython/> </div>
+                </div>
                 <li><a>JavaScript <IoLogoJavascript/></a></li>
                 <li><a>Algorithm</a></li>
                 <li><a>About</a></li>

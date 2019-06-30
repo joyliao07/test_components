@@ -21,9 +21,21 @@ h3 {
     float: right;
     font-size: 20px;
     margin-block-start: 30px;
-    line-height: 1.5em;
     width: 100%;
 }
+
+.LiHome, .LiPython {
+    display: inline-flex;
+}
+
+.LiHome li {
+    padding-top: 10px;
+}
+
+.LiPython li {
+    padding-top: 11px;
+}
+
 
 .Name p {
     margin-block-start: 0px;
