@@ -18,14 +18,16 @@ const navigationItems = (props) => (
             <li><a>About</a></li>
             <li><a>Contact</a></li>
         </ul>
-        <IconContext.Provider value={{ size: "1.5em", className: "Icons" }}>
-            <FaGithub />
-            <FaLinkedin />
-        </IconContext.Provider>
-
-
+        <div className={classes.Icons}>
+            <IconContext.Provider 
+                value={{ size: "1.5em", style: {"margin": "10px"} }}>
+                <FaGithub />
+                <FaLinkedin />
+            </IconContext.Provider>
+        </div>
 
         {/* https://react-icons.netlify.com/#/icons/fa */}
+        {/* https://github.com/react-icons/react-icons */}
     </div>
 );
 
