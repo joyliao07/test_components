@@ -1,9 +1,7 @@
 import React from 'react';
 import classes from './NavigationItems.css';
-import { classExpression } from '@babel/types';
-import { faHome, faCoffee, faGithub } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { IconContext } from "react-icons";
 
 const navigationItems = (props) => (
     <div className={classes.NavigationItems}>
@@ -20,13 +18,14 @@ const navigationItems = (props) => (
             <li><a>About</a></li>
             <li><a>Contact</a></li>
         </ul>
-        <i className="fa fa-github" aria-hidden="true"></i>
-        <FaGithub />
+        <IconContext.Provider value={{ size: "1.5em", className: "Icons" }}>
+            <FaGithub />
+            <FaLinkedin />
+        </IconContext.Provider>
 
 
 
-
-        {/* https://scotch.io/tutorials/using-font-awesome-5-with-react */}
+        {/* https://react-icons.netlify.com/#/icons/fa */}
     </div>
 );
 
