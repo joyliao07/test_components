@@ -22,6 +22,7 @@ h3 {
     font-size: 20px;
     margin-block-start: 30px;
     line-height: 1.5em;
+    width: 100%;
 }
 
 .Name p {
@@ -37,8 +38,9 @@ h3 {
 }
 
 .Icons {
-    color: red;
-    size: 20px;
+    display: block;
+    float: right;
+    margin: 20% 0 7% 0;
 }
 
 
