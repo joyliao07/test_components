@@ -9,18 +9,24 @@
     background: gray;
     width: 70%;
     padding: 5%;
+    padding-left: 35%;
 }
 
 h2 {
     color: white;
-    font-size: 30px;
-    text-align: center;
+    font-size: 40px;
+    padding-bottom: 4%;
+    width: 460px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: rgb(165, 162, 162) dotted 2px;
 }
 
 p {
     color: rgb(46, 45, 45);
     margin-block-start: 50px;
     margin-block-end: 70px;
+    padding-left: 30px;
 }
 
 .ButtonGroup {
