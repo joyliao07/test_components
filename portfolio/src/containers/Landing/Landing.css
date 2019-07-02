@@ -23,5 +23,7 @@ p {
     margin-block-end: 70px;
 }
 
-
-
+.ButtonGroup {
+    display: flex;
+    justify-content: center;
+}
