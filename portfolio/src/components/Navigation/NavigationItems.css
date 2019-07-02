@@ -5,15 +5,17 @@ h3 {
 }
 
 .NavigationItems {
+    position: fixed;
     padding-right: 25px;
     padding-top: 20px;
-    width: 30%;
+    width: 23%;
     min-width: 200px;
     height: 100%;
     min-height: 300px;
     float: right;
     text-align: right;
     color: white;
+    background: rgb(0, 68, 0);
 }
 
 .NavigationItems ul {
@@ -56,6 +58,7 @@ h3 {
     margin-block-start: 0px;
     margin-block-end: 20px;
     font-size: 12px;
+    color: rgba(255, 255, 255, 0.705);
 }
 
 .Name img {

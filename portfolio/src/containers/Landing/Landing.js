@@ -14,8 +14,9 @@ class Landing extends Component {
 they are basically good and smart, and if you give them tools
 they'll do wonderful things with them." ~Steve Jobs </p>
                     <div className={classes.ButtonGroup}>
-                        <Button b='Python Portfolio'/>
-                        <Button b='JavaScript Portfolio'/>
+                        <Button b='Python'/>
+                        <Button b='JavaScript'/>
+                        <Button b='DSA'/>
                     </div>
                 </div>
             </div>
