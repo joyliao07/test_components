@@ -10,9 +10,7 @@ class Landing extends Component {
                 <NavigationItems/>
                 <div className={classes.LandingContent}>
                     <h2>Full-stack Software Developer</h2>
-                    <p>"What's important is that you have a faith in people, that
-they are basically good and smart, and if you give them tools
-they'll do wonderful things with them." ~Steve Jobs </p>
+                    <p>"It's not a bug. It's an undocumented feature. ~Anonymous </p>
                     <div className={classes.ButtonGroup}>
                         <Button b='Python'/>
                         <Button b='JavaScript'/>

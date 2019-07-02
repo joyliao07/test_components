@@ -10,6 +10,7 @@
     width: 70%;
     padding: 5%;
     padding-left: 35%;
+    text-align: center;
 }
 
 h2 {
@@ -26,7 +27,6 @@ p {
     color: rgb(46, 45, 45);
     margin-block-start: 50px;
     margin-block-end: 70px;
-    padding-left: 30px;
 }
 
 .ButtonGroup {

@@ -8,7 +8,8 @@ class Button extends Component {
             <div className={classes.Python}>
 
                 <div className={classes.PythonContent}>
-                    Python Page
+                    <h3>Python Projects</h3>
+                    <p>I certainly am interested in accessibility, clarity, and immediacy. ~Paul Muldoon</p>
                 </div>
             </div>
         );
