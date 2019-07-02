@@ -5,6 +5,7 @@ h3 {
 }
 
 .NavigationItems {
+    position: fixed;
     padding-right: 25px;
     padding-top: 20px;
     width: 30%;

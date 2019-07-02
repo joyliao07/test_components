@@ -6,7 +6,7 @@ class Button extends Component {
     render () {
         return (
             <div className={classes.Python}>
-                <NavigationItems/>
+
                 <div className={classes.PythonContent}>
                     Python Page
                 </div>
