@@ -10,6 +10,11 @@ class Button extends Component {
                 <div className={classes.PythonContent}>
                     <h3>Python Projects</h3>
                     <p>I certainly am interested in accessibility, clarity, and immediacy. ~Paul Muldoon</p>
+                    <div>
+                        <h4>Project 1</h4>
+                        <img src={require("../../assets/glitter.jpg")}/>
+                        <p> Project description ..........................</p>
+                    </div>
                 </div>
             </div>
         );
