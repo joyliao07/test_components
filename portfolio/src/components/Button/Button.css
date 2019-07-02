@@ -1,4 +1,11 @@
 .Button {
-    height: 32px;
+    height: 45px;
     border-radius: 5px;
+    display: inline;
+    margin: 20px;
+    background: green;
+    border: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
 }

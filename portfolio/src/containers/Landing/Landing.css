@@ -8,7 +8,22 @@
 .LandingContent {
     background: gray;
     width: 70%;
+    padding: 5%;
 }
 
+h2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
 
+p {
+    color: rgb(46, 45, 45);
+    margin-block-start: 50px;
+    margin-block-end: 70px;
+}
 
+.ButtonGroup {
+    display: flex;
+    justify-content: center;
+}

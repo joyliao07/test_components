@@ -13,8 +13,10 @@ class Landing extends Component {
                     <p>"What's important is that you have a faith in people, that
 they are basically good and smart, and if you give them tools
 they'll do wonderful things with them." ~Steve Jobs </p>
-                    <Button b='Python Portfolio'/>
-                    <Button b='JavaScript Portfolio'/>
+                    <div className={classes.ButtonGroup}>
+                        <Button b='Python Portfolio'/>
+                        <Button b='JavaScript Portfolio'/>
+                    </div>
                 </div>
             </div>
         );
