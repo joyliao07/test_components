@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import classes from './Python.css';
-import NavigationItems from '../../components/Navigation/NavigationItems';
+import Project from '../../components/Project/Project';
 
 class Button extends Component {
     render () {
@@ -11,9 +11,16 @@ class Button extends Component {
                     <h3>Python Projects</h3>
                     <p>I certainly am interested in accessibility, clarity, and immediacy. ~Paul Muldoon</p>
                     <div>
-                        <h4>Project 1</h4>
                         <img src={require("../../assets/glitter.jpg")}/>
-                        <p> Project description ..........................</p>
+                        <Project
+                            name="Project 1"
+                            description="Project 1 description ............................."/>
+                    </div>
+                    <div>
+                        <img src={require("../../assets/glitter.jpg")}/>
+                        <Project
+                            name="Project 2"
+                            description="Project 2 description ............................."/>
                     </div>
                 </div>
             </div>
